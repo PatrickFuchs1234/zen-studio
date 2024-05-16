@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------------temporary styles */
+
+/* *{
+    padding: 0.5%;
+}
+
+header, body, section, header, footer{
+    border: 1px solid rgb(148, 143, 143);
+}
+
+h1, h1, h1, h4, p, a {
+    border: 1px solid rgb(169, 59, 59);
+} */
+
+/* ------------------- reusable utility styles ------------------------------------------*/
+
+.padded5        { padding: 5%;}
+.padded10       { padding: 10%;}
+.padded1rem     { padding: 1rem;}
+.padded2rem     { padding: 2rem;}
+
+.text-left      { text-align: left;}
+.text-center    { text-align: center;}
+.text-right     { text-align: right;}
+
+.vh30       { min-height: 30vh;}
+.vh40       { min-height: 40vh;}
+.vh50       { min-height: 50vh;}
+.vh60       { min-height: 60vh;}
+.vh70       { min-height: 70vh;}
+.vh80       { min-height: 80vh;}
+.vh90       { min-height: 90vh;}
+
+.bg-image{
+    background-color: rgb(227, 205, 183);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-color{
+    background-color: rgb(253, 247, 240);
+}
+.bg-image-sand{ background-image: url(images/stone.png);}
+.bg-image-yogi{ 
+    background-image: url(images/zen-studio-2.jpg);
+    border-radius: 20rem;
+    border-bottom-right-radius: 0;
+}
+.bg-image-leaves{ background-image: url(images/leaves-light.png);}
+.bg-image-room{ background-image: url(images/zen-studio-3.jpg);
+    border-top-right-radius: 20rem;
+    border-top-left-radius: 20rem;
+}
+.bg-image-map{ background-image: url(images/light-colored-map.png);}
+
+.text-color{ color: lightcoral;}
+/*------------------- topography styles --------------------------------------- */
+
+body{
+    padding: 0.5%;
+    font-family: Baskervville;
+}
+
+h1, h2,{
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+}
+
+h2{
+    padding: 5% 0;
+    font-size: 2.5rem;
+}
+h3{ font-size: 1.5rem;}
+
+p{
+    line-height: 1.4;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: inherit;
+    border: 2px solid lightcoral;
+    border-radius: 2rem;
+    padding: 0.6rem 2rem;
+    margin: 0.1rem 0;
+}
+button:hover{
+    background-color: lightcoral;
+    color: rgb(253, 247, 240);
+}
+
+/*  */
